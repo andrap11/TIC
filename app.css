@@ -1,0 +1,118 @@
+#hero-banner {
+	background-image: url('banner-background.jpg');
+	background-size: cover;
+}
+
+#header {
+	height: 90px;
+	padding: 0 20px;
+}
+
+body {
+	margin: 0;
+}
+
+section {
+	text-align: center;
+}
+
+#hero-banner a {
+	color: white;
+}
+
+#header .home-link {
+	float: left;
+	padding-top: 10px;
+}
+
+#header #nav {
+	float: right;
+}
+
+#header #nav ul li {
+	display: inline-block;
+	margin: 0 5px;
+	font-size: 20px;
+}
+#hero-banner #banner-text {
+	padding: 100px 0;
+	color: white;
+	font-weight: lighter;
+}
+
+#hero-banner #banner-text h1 {
+	font-size: 50px;
+	font-weight: lighter;
+}
+#hero-banner #banner-text h3 {
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+#hero-banner #banner-text a {
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#section-one {
+	overflow: auto;
+	background-color: #006686;
+	color: white;
+	padding: 30px 20px;
+}
+#section-one h1{ 
+	margin: 0;
+	font-weight: lighter;
+}
+
+#section-one h2{
+	font-weight: lighter;
+}
+
+#section-one .col {
+	width: 33.33%;
+	float: left;
+	margin-top: 30px;
+}
+
+#section-one .col .image-wrapper {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000000;
+	margin: 0 auto;
+	border-radius: 50%;
+	position: relative;
+}
+
+#section-one .col img {
+	height: 50px;
+	width: auto;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+#section-one .col .user-icon{
+	font-size: 50px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+a {
+	text-decoration: none;
+}
+
+.posts-table {
+	border: 1px solid black;
+	width: 100%;
+}
+
+.posts-table td {
+	background: white;
+}
