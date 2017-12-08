@@ -43,7 +43,6 @@ $(document).ready(function () {
 				body: data.body
 			},
 			success: function(data) {
-				debugger;
 				drawTable([data]);
 			},
 			dataType: 'json',
