@@ -1,5 +1,15 @@
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+	font-weight: lighter;
+}
+
 #hero-banner {
-	background-image: url('banner-background.jpg');
+	background-image: url('assets/images/banner-background.jpg');
 	background-size: cover;
 }
 
@@ -34,6 +44,7 @@ section {
 	margin: 0 5px;
 	font-size: 20px;
 }
+
 #hero-banner #banner-text {
 	padding: 100px 0;
 	color: white;
@@ -44,31 +55,24 @@ section {
 	font-size: 50px;
 	font-weight: lighter;
 }
+
 #hero-banner #banner-text h3 {
 	font-size: 25px;
 	font-weight: lighter;
 }
 
 #hero-banner #banner-text a {
-    font-size: 25px;
-    border: 1px solid white;
-    padding: 10px 15px;
-    border-radius: 10px;
+	font-size: 25px;
+	border: 1px solid white;
+	padding: 10px 15px;
+	border-radius: 10px;
 }
 
 #section-one {
 	overflow: auto;
-	background-color: #006686;
-	color: white;
+	background-color: #d5d5d5;
+	color: #333;
 	padding: 30px 20px;
-}
-#section-one h1{ 
-	margin: 0;
-	font-weight: lighter;
-}
-
-#section-one h2{
-	font-weight: lighter;
 }
 
 #section-one .col {
@@ -86,26 +90,33 @@ section {
 	position: relative;
 }
 
-#section-one .col img {
-	height: 50px;
-	width: auto;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -25px;
-    margin-left: -25px;
+#section-one .col i {
+	font-size: 50px;
+	margin: 0 auto;
+	line-height: 102px;
 }
 
-#section-one .col .user-icon{
-	font-size: 50px;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -25px;
-    margin-left: -25px;
+#section-two {
+	overflow: auto;
+	color: white;
+	background-color: #393f43;
+	padding: 30px 20px;
 }
-a {
-	text-decoration: none;
+
+#section-two .container {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+#section-two .col {
+	padding: 5px;
+	width: 33%;
+}
+
+#section-two .col .col-image {
+	width: 100%;
 }
 
 .posts-table {

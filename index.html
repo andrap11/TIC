@@ -1,45 +1,102 @@
 <html !DOCTYPE>
 <html>
-	<head>
-		<title>Home</title>
-		<link rel="stylesheet" type="text/css" href="app.css">
-	</head>
-	<body>
+
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="app.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src="app.js"></script>
+</head>
+
+<body>
+	<div id="vueApp">
 		<section id="hero-banner">
 			<header id="header">
-				<h1><a class="home-link" href="./index.html">Qlab</a></h1>
+				<h1>
+					<a class="home-link" href="./index.html">Qlab</a>
+				</h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="./index.html">Home</a></li>
-						<li><a href="./about.html">About</a></li>
-						<li><a href="./contact.html">Contact</a></li>
+						<li>
+							<a href="./index.html">Home</a>
+						</li>
+						<li>
+							<a href="./about.html">About</a>
+						</li>
+						<li>
+							<a href="./contact.html">Contact</a>
+						</li>
 					</ul>
 				</nav>
 			</header>
 			<div id="banner-text">
-				<h1>E-Business Master</h1>
+				<h1>{{title}}</h1>
 				<h3>HTML and CSS demo</h3>
 				<a href="http://wikipedia.com">Learn More</a>
 			</div>
 		</section>
 		<section id="section-one">
 			<h1>Lorem Ipsum</h1>
-			<h2>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</h2>
+			<h2>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+				from 45 BC, making it over 2000 years old.</h2>
 			<div class="col one">
 				<div class="image-wrapper">
-					<img src="user-icon.png"></img>
+					<i class="fa fa-user-o" aria-hidden="true"></i>
 				</div>
 			</div>
 			<div class="col two">
-        		<div class="image-wrapper">
-           			<img src="message-icon.jpg"></img>
-		        </div>
-	      	</div>
+				<div class="image-wrapper">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+				</div>
+			</div>
 			<div class="col three">
 				<div class="image-wrapper">
-					<img src="clock-icon.jpg"></img>
+					<i class="fa fa-clock-o" aria-hidden="true"></i>
 				</div>
 			</div>
 		</section>
-	</body>
+		<section id="section-two">
+			<h1>Lorem Ipsum</h1>
+
+			<h4>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+				from 45 BC, making it over 2000 years old.</h4>
+			<div class="container">
+
+				<div class="col">
+					<a href="#">
+						<img class="col-image" src="assets/images/p1.jpg">
+					</a>
+				</div>
+				<div class="col">
+					<a href="#">
+						<img class="col-image" src="assets/images/p2.jpg">
+					</a>
+				</div>
+				<div class="col col-image">
+					<a href="#">
+						<img class="col-image" src="assets/images/p3.jpg">
+					</a>
+				</div>
+				<div class="col">
+					<a href="#">
+						<img class="col-image" src="assets/images/p4.jpg">
+					</a>
+				</div>
+				<div class="col">
+					<a href="#">
+						<img class="col-image" src="assets/images/p5.jpg">
+					</a>
+				</div>
+				<div class="col">
+					<a href="#">
+						<img class="col-image" src="assets/images/p6.jpg">
+					</a>
+				</div>˘
+			</div>
+		</section>
+	</div>
+</body>
+
 </html>
