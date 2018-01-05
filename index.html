@@ -64,7 +64,13 @@
 				from 45 BC, making it over 2000 years old.</h4>
 			<div class="container">
 
-				<div class="col">
+				<div v-for="image in images" class="col">
+					<a href="#">
+						<img class="col-image" v-bind:src="image.url">
+					</a>
+				</div>
+
+				<!-- <div class="col">
 					<a href="#">
 						<img class="col-image" src="assets/images/p1.jpg">
 					</a>
@@ -93,7 +99,7 @@
 					<a href="#">
 						<img class="col-image" src="assets/images/p6.jpg">
 					</a>
-				</div>˘
+				</div> -->
 			</div>
 		</section>
 	</div>
