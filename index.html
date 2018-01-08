@@ -5,8 +5,7 @@
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="app.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
-	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<!-- Include vue js script -->
 	<script src="app.js"></script>
 </head>
 
@@ -62,18 +61,10 @@
 
 			<h4>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
 				from 45 BC, making it over 2000 years old.</h4>
+
+			<!-- Replace this with a v-for directive and iterate through images -->
 			<div class="container">
-
-				<div v-for="image in images" class="col image" v-bind:class="{animated: image.isAnimated}">
-					<div class="title">
-						{{image.title}}
-					</div>
-					<a href="#">
-						<img class="col-image" v-bind:src="image.url" >
-					</a>
-				</div>
-
-				<!-- <div class="col">
+				<div class="col">
 					<a href="#">
 						<img class="col-image" src="assets/images/p1.jpg">
 					</a>
@@ -102,8 +93,9 @@
 					<a href="#">
 						<img class="col-image" src="assets/images/p6.jpg">
 					</a>
-				</div> -->
+				</div>
 			</div>
+			<!-- End -->
 		</section>
 	</div>
 </body>
