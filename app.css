@@ -156,3 +156,8 @@ section {
 	border: 1px solid white;
 	border-radius: 10px;
 }
+
+.col label {
+	display: block;
+	margin: 10px; 0;
+}
