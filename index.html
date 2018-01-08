@@ -64,9 +64,12 @@
 				from 45 BC, making it over 2000 years old.</h4>
 			<div class="container">
 
-				<div v-for="image in images" class="col">
+				<div v-for="image in images" class="col image" v-bind:class="{animated: image.isAnimated}">
+					<div class="title">
+						{{image.title}}
+					</div>
 					<a href="#">
-						<img class="col-image" v-bind:src="image.url">
+						<img class="col-image" v-bind:src="image.url" >
 					</a>
 				</div>
 

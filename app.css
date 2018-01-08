@@ -127,3 +127,25 @@ section {
 .posts-table td {
 	background: white;
 }
+
+.animated:hover {
+	transition: transform .2s;
+  	transform: scale(1.05)
+}
+
+.image {
+	position: relative;
+}
+
+.image .title {
+	position: absolute;
+	padding: 2px 6px;
+	margin: 4px;
+
+	background-color: white;
+	color: black;
+	
+	font-family: arial;
+	
+	opacity: 0.6;
+}
