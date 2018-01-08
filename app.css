@@ -146,6 +146,13 @@ section {
 	color: black;
 	
 	font-family: arial;
-	
+
 	opacity: 0.6;
+}
+
+.container a {
+	color: white;
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
 }
